@@ -178,11 +178,20 @@ html[lang="ko"] {
 .badge {
   display: inline-block;
   margin: 28px 0 0;
-  padding: 12px 24px;
   border-radius: 999px;
   background: var(--accent);
-  color: #fff;
   font-weight: 600;
+}
+
+.badge:hover {
+  background: var(--link);
+}
+
+.badge a {
+  display: block;
+  padding: 12px 24px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .features {
