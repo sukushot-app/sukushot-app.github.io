@@ -190,6 +190,15 @@ html[lang="ko"] {
   background: var(--link);
 }
 
+.hero-shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 40px auto 0;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(29, 36, 51, 0.16);
+}
+
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
